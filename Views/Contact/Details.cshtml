@@ -1,0 +1,18 @@
+﻿@model ContactModel
+
+<h3>Contact Details</h3>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <td>@Model.Name</td>
+    </tr>
+    <tr>
+        <th>Contact</th>
+        <td><a href="tel:@Model.Contact">@Model.Contact</a></td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td><a href="mailto:@Model.Email">@Model.Email</a></td>
+    </tr>
+</table>

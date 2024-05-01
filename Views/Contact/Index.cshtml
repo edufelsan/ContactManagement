@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ContactManagement.Models.ContactModel>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<a asp-controller="Contact" asp-action="Create" class="btn btn-primary">Add New Contact</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contact in Model)
+        {
+            <tr>
+                <td>@contact.Name</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@contact.Id" class="btn btn-info">Details</a>
+                    <a asp-action="Edit" asp-route-id="@contact.Id" class="btn btn-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@contact.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
