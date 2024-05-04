@@ -1,4 +1,4 @@
-namespace ContactManagement.Models
+namespace ContactManagementNew.Models
 {
     public class ErrorViewModel
     {

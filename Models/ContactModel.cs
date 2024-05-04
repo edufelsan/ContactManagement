@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using ContactManagement.Attributes;
+using ContactManagementNew.Attributes;
 
-namespace ContactManagement.Models
+namespace ContactManagementNew.Models
 {
     [Table("Customers")]
     public class ContactModel

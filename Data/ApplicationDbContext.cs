@@ -1,7 +1,7 @@
-﻿using ContactManagement.Models;
+﻿using ContactManagementNew.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ContactManagement.Data
+namespace ContactManagementNew.Data
 {
     public class ApplicationDbContext : DbContext
     {
