@@ -1,8 +1,8 @@
-﻿using ContactManagementNew.Models;
+﻿using ContactManagement.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ContactManagementNew.Controllers
+namespace ContactManagement.Controllers
 {
     public class HomeController : Controller
     {

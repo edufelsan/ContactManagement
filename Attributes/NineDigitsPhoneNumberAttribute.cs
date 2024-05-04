@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ContactManagementNew.Attributes
+namespace ContactManagement.Attributes
 {
     public class NineDigitsPhoneNumberAttribute : ValidationAttribute
     {

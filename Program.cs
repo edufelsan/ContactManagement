@@ -1,4 +1,4 @@
-using ContactManagementNew.Data;
+using ContactManagement.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
 using System.Runtime.InteropServices;

@@ -1,8 +1,8 @@
-﻿using ContactManagementNew.Data;
-using ContactManagementNew.Models;
+﻿using ContactManagement.Data;
+using ContactManagement.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ContactManagementNew.Controllers
+namespace ContactManagement.Controllers
 {
     public class ContactController : Controller
     {

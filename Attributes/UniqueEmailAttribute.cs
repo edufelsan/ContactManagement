@@ -1,8 +1,8 @@
-﻿using ContactManagementNew.Data;
-using ContactManagementNew.Models;
+﻿using ContactManagement.Data;
+using ContactManagement.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace ContactManagementNew.Attributes
+namespace ContactManagement.Attributes
 {
     public class UniqueEmailAttribute : ValidationAttribute
     {
